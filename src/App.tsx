@@ -5,6 +5,7 @@ import { Transactions } from './pages/Transactions'
 import { TransactionsProvider } from './contexts/TransactionsContext'
 
 export function App() {
+  // Development test
   return (
     <ThemeProvider theme={defaultTheme}>
       <GlobalStyle />
