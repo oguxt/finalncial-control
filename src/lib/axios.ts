@@ -1,5 +1,5 @@
 import axios from 'axios'
 
 export const api = axios.create({
-  baseURL: 'https://json-rust.vercel.app/transactions',
+  baseURL: 'https://json-rust.vercel.app/',
 })
